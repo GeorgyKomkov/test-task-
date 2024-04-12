@@ -1,8 +1,7 @@
 ## Тестовое задание на вакансию Frontend-разработчика в компании "ПИКАССО"
 
 ### Запуск
-### Запуск
-- Откройте [https://test-task-pikasso.onrender.com]https://test-task-pikasso.onrender.com) в вашем браузере для просмотра.
+- Откройте [https://test-task-pikasso.onrender.com](https://test-task-pikasso.onrender.com) в вашем браузере для просмотра.
 
 
 ### Описание
