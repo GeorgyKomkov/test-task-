@@ -1,6 +1,6 @@
 
-import PostConteiner from './features/Posts/pagesComponents/PostConteinerPage';
-import SinglePost from './features/Posts/pagesComponents/SinglePostPage'
+import { PostContainer } from '../pages/Posts/PostConteinerPage';
+import {SinglePost} from '../pages/Posts/SinglePostPage'
 
 import {
   BrowserRouter,
@@ -13,10 +13,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={ <PostConteiner/>}/>
+      <Route path='/' element={ <PostContainer/>}/>
       <Route path='/post' element={ <SinglePost/>}/>
-    </Routes>
-      
+    </Routes> 
     </BrowserRouter>
 
   );

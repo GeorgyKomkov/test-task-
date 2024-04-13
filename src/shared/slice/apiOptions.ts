@@ -1,7 +1,6 @@
-/* eslint-disable no-param-reassign */
 
 import { createSlice } from '@reduxjs/toolkit';
-import { ApiOptions } from '../../types/types';
+import { ApiOptions } from '../types/types';
 
 const initialState : ApiOptions = {
   limit: 10,

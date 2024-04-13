@@ -1,6 +1,6 @@
-/* eslint-disable no-param-reassign */
+
 import { createSlice } from '@reduxjs/toolkit';
-import { CurrentPost } from '../../types/types';
+import { CurrentPost } from '../types/types';
 
 const initialState : CurrentPost = {
   currentId: 1,

@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { postsApi } from '../services/postsApi'; 
+import { postsApi } from '../api/postsApi'; 
 import  currentPostSlice from './currentPost'
 import scrollPositionReducer from './scroll'
 import apiOptionsReducer from './apiOptions';

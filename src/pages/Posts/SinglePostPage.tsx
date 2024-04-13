@@ -1,15 +1,16 @@
 import { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { RootState } from '../slice/store';
-import { getPostById } from '../services/postsApi';
+import { RootState } from '../../shared/slice/store';
+import { getPostById } from '../../shared/api/postsApi';
 import Button from 'react-bootstrap/Button';
 
 const SinglePost: FC = () => {
-  const navigate = useNavigate();
+  
   const id = useSelector((state: RootState) => state.currentPostId.currentId);
   const { data: post, error, isLoading } = getPostById(id);
-
+  
+  const navigate = useNavigate();
   const handlerClickToBack = () => navigate('/');
 
   return (
@@ -35,4 +36,4 @@ const SinglePost: FC = () => {
   );
 };
 
-export default SinglePost;
+export  { SinglePost };

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Spinner } from 'react-bootstrap';
 
 const LoadingSpinner: FC = () => (
@@ -10,4 +10,4 @@ const LoadingSpinner: FC = () => (
   </div>
 );
 
-export default LoadingSpinner;
+export {LoadingSpinner};

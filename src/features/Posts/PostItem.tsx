@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PostItemsProps } from '../../types/types';
+import { PostItemsProps } from '../../shared/types/types';
 import { useDispatch } from 'react-redux';
-import { setCurrentId } from '../slice/currentPost';
-import { setScrollPosition } from '../slice/scroll';
+import { setCurrentId } from '../../shared/slice/currentPost';
+import { setScrollPosition } from '../../shared/slice/scroll';
 import Button from 'react-bootstrap/Button';
 
 const PostItem: FC<PostItemsProps> = ({ post }) => {
