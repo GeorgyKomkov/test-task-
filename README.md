@@ -20,6 +20,3 @@
 
 - Выполнено с использованием React, Redux Toolkit , RTK Query, React Router DOM 6.
 - Использован Bootstrap.
-
-
-# тестовое задание-
